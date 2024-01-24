@@ -1,6 +1,6 @@
 # Discrete Optimization
 
-I am learning Discrete Optimization by The University of Melbourne from Jan 23 to --.
+I am learning Discrete Optimization by University of Melbourne from Jan 23 to --.
 
 - ![Professor Pascal Van Hentenryck](https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-instructor-photos.s3.amazonaws.com/82/e7ab60e029e7cae7cd4c0c70ece2cf/PascalVanHentenryck.jpg?auto=format%2Ccompress&dpr=1&w=88&h=88&fit=crop)
 
