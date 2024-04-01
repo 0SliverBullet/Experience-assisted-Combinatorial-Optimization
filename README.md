@@ -12,7 +12,7 @@ The main contribution in this project consists of three parts:
 
 Codes are publicly available on GitHub: Algorithm Implementation.
 
-2. We collect **6 benchmarks for UFLP** from https://resources.mpi-inf.mpg.de/departments/d1/projects/benchmarks/UflLib/index.html, where $OR$ and $M*$ is the most popular benchmarks used in most paper currently. Meanwhile, we also upload 4 other benchmarks named $Euclid$, $GapA, $GapB$, and $GapC$.
+2. We collect **6 benchmarks for UFLP** from https://resources.mpi-inf.mpg.de/departments/d1/projects/benchmarks/UflLib/index.html, where $OR$ and $M*$ is the most popular benchmarks used in most paper currently. Meanwhile, we also upload 4 other benchmarks named $Euclid$, $GapA$, $GapB$, and $GapC$.
 
    The information on the 6 benchmarks for UFLP is summarized as follows:
 
