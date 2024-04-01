@@ -5,14 +5,14 @@ This repository is for SUSTech CS321 Group Project Ⅰ. We are solving *uncapaci
 
 The main contribution in this project consists of three parts:
 
-1. **Two state-of-the-art algorithms are implemented in Python**: 
+1. **[Two state-of-the-art algorithms are implemented in Python](https://github.com/0SliverBullet/Experience-assisted-Combinatorial-Optimization/tree/main/algorithm_implementation)**: 
 
 - an *enhanced group theory-based optimization algorithm* (EGTOA), from the paper titled "[A fast and efficient discrete evolutionary algorithm for the uncapacitated facility location problem](https://www.sciencedirect.com/science/article/pii/S0957417422019960)".
 - an *evolutionary simulated annealing* (ESA) , from the paper titled "[Solving large-scale uncapacitated facility location problems with evolutionary simulated annealing](https://www.tandfonline.com/doi/abs/10.1080/00207540600621003)".
 
-Codes are publicly available on GitHub: Algorithm Implementation.
+Codes are publicly available on [algorithm implementation](https://github.com/0SliverBullet/Experience-assisted-Combinatorial-Optimization/tree/main/algorithm_implementation).
 
-2. We collect **6 benchmarks for UFLP** from https://resources.mpi-inf.mpg.de/departments/d1/projects/benchmarks/UflLib/index.html, where $OR$ and $M*$ is the most popular benchmarks used in most paper currently. Meanwhile, we also upload 4 other benchmarks named $Euclid$, $GapA$, $GapB$, and $GapC$.
+2. We collect **[6 benchmarks for UFLP](https://github.com/0SliverBullet/Experience-assisted-Combinatorial-Optimization/tree/main/benchmark)** from https://resources.mpi-inf.mpg.de/departments/d1/projects/benchmarks/UflLib/index.html, where $OR$ and $M*$ are the most popular benchmarks used in most paper currently. Meanwhile, we also upload 4 other benchmarks named $Euclid$, $GapA$, $GapB$, and $GapC$.
 
    The information on the 6 benchmarks for UFLP is summarized as follows:
 
@@ -33,7 +33,7 @@ Codes are publicly available on GitHub: Algorithm Implementation.
    | GapB       | 331GapBS∼ 3231GapBS | 100      | 100      |
    | GapC       | 333GapCS∼ 3233GapCS | 100      | 100      |
    
-3. We **propose a new model** *f-c open number* (FCON), a heuristic experience to assist in enhancing existing evolutionary algorithms for better solving UFLP, to predict how many facilities we should open in the optimal solution by using machine learning which trains from small-scale instances and predicts on the large-scale instances. 
+3. We **[propose a new model](https://github.com/0SliverBullet/Experience-assisted-Combinatorial-Optimization/tree/main/fc_open_number)** *f-c open number* (FCON), a heuristic experience to assist in enhancing existing evolutionary algorithms for better solving UFLP, to predict how many facilities we should open in the optimal solution by using machine learning which trains from small-scale instances and predicts on the large-scale instances. 
 
 ![image-20240401143557099](README.assets/image-20240401143557099.png)
 
