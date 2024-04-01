@@ -12,9 +12,9 @@ The main contribution in this project consists of three parts:
 
 Codes are publicly available on GitHub: Algorithm Implementation.
 
-2. We collect **6 benchmarks for UFLP** from https://resources.mpi-inf.mpg.de/departments/d1/projects/benchmarks/UflLib/index.html, where $OR$ and $M*$ is the most popular benchmarks used in most paper currently. Meanwhile, we also upload 4 other benchmarks named $Euclid$, $GapA, $$GapB$, $GapC$.
+2. We collect **6 benchmarks for UFLP** from https://resources.mpi-inf.mpg.de/departments/d1/projects/benchmarks/UflLib/index.html, where $OR$ and $M*$ is the most popular benchmarks used in most paper currently. Meanwhile, we also upload 4 other benchmarks named $Euclid$, $GapA, $GapB$, and $GapC$.
 
-   The information of the 6 benchmarks for UFLP is summarized as follows:
+   The information on the 6 benchmarks for UFLP is summarized as follows:
 
    | benchmark  | Instance            | facility | customer |
    | ---------- | ------------------- | -------- | -------- |
@@ -39,7 +39,7 @@ Codes are publicly available on GitHub: Algorithm Implementation.
 
 ![image-20240401143633134](README.assets/image-20240401143633134.png)
 
-FCON can reduce the solution space but not significantly. For the instance with 100 facilities, although FCON claims that the optimal solution exists in the solution with open number $n_{opt} \in [n_{pred}-4, n_{pred}+4]$, the solution space just reduces from $2^{100} (1.3 \times 10^{30})$ to $\sum_{i=n_{pred}-4}^{n_{pred}+4} C(100,i) \in [2.1 \times 10^{12}, 8.0 \times 10^{29}]$, which is not significant effect.
+FCON can reduce the solution space but not significantly. For the instance with 100 facilities, although FCON claims that the optimal solution exists in the solution with the open number $n_{opt} \in [n_{pred}-4, n_{pred}+4]$, the solution space just reduces from $2^{100} (1.3 \times 10^{30})$ to $\sum_{i=n_{pred}-4}^{n_{pred}+4} C(100, i) \in [2.1 \times 10^{12}, 8.0 \times 10^{29}]$, which is not significant effect.
 
 However, I still believe the model is useful to some extent and I will explore more useful heuristic experiences in the future.
 
