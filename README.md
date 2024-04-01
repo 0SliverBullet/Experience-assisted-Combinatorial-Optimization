@@ -1,11 +1,9 @@
-# Experience-assisted Combinatorial Optimization
+# uncapacitated facility location problems (UFLP): algorithm implementation, datasets, proposed heuristic experience
 This repository is for SUSTech CS321 Group Project Ⅰ. We are solving *uncapacitated facility location problems* (UFLP) with experience-assisted optimization. 
 
 ## Project Details
 
 The main contribution in this project consists of three parts:
-
-
 
 1. **Two state-of-the-art algorithms are implemented in Python**: 
 
@@ -14,10 +12,28 @@ The main contribution in this project consists of three parts:
 
 Codes are publicly available on GitHub: Algorithm Implementation.
 
+2. We collect **6 benchmarks for UFLP** from https://resources.mpi-inf.mpg.de/departments/d1/projects/benchmarks/UflLib/index.html, where $OR$ and $M*$ is the most popular benchmarks used in most paper currently. Meanwhile, we also upload 4 other benchmarks named $Euclid$, $GapA, $$GapB$, $GapC$.
 
+   The information of the 6 benchmarks for UFLP is summarized as follows:
 
-2. We collect **5 benchmarks for UFLP** from
-2. We **propose a new model** *f-c open number* (FCON), a heuristic experience to assist in enhancing existing evolutionary algorithms for better solving UFLP, to predict how many facilities we should open in the optimal solution by using machine learning which trains from small-scale instances and predicts on the large-scale instances. 
+   | benchmark  | Instance            | facility | customer |
+   | ---------- | ------------------- | -------- | -------- |
+   | OR-Library | Cap71∼ Cap74        | 16       | 50       |
+   |            | Cap101∼ Cap104      | 25       | 50       |
+   |            | Cap131∼ Cap134      | 50       | 50       |
+   |            | CapA∼ CapC          | 100      | 1000     |
+   | M*         | MO1∼ MO5            | 100      | 100      |
+   |            | MP1∼ MP5            | 200      | 200      |
+   |            | MQ1∼ MQ5            | 300      | 300      |
+   |            | MR1∼ MR5            | 500      | 500      |
+   |            | MS1                 | 1000     | 1000     |
+   |            | MT1                 | 2000     | 2000     |
+   | Euclid     | 111EuclS∼ 3011EuclS | 100      | 100      |
+   | GapA       | 332GapAS∼ 3232GapAS | 100      | 100      |
+   | GapB       | 331GapBS∼ 3231GapBS | 100      | 100      |
+   | GapC       | 333GapCS∼ 3233GapCS | 100      | 100      |
+   
+3. We **propose a new model** *f-c open number* (FCON), a heuristic experience to assist in enhancing existing evolutionary algorithms for better solving UFLP, to predict how many facilities we should open in the optimal solution by using machine learning which trains from small-scale instances and predicts on the large-scale instances. 
 
 ![image-20240401143557099](README.assets/image-20240401143557099.png)
 
