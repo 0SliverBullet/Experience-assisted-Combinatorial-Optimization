@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - name: "Zubin Zheng"
+title: "uncapacitated facility location problems (UFLP): algorithm implementation, datasets, proposed heuristic experience"
+date-released: 2024-04-01
+url: "https://github.com/0SliverBullet/Experience-assisted-Combinatorial-Optimization"
+license: MIT
